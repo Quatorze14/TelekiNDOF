@@ -18,7 +18,7 @@ If you're using an older version of blender (before 2.93) you might encounter an
 ```ModuleNotFoundError: No module named 'pywinusb'```
 
 If this happen, I would recommand to update blender to a newer version. But if for some reasons you need the old version of blender and TelekiNDOF follow the next steps very carefully :
-1. unzip the folder and open __init__.py
+1. unzip the folder and open `__init__.py`
 2. comment line 36 to 44 as follow (alternatively you can remove those lines):
 ```
 #import subprocess
