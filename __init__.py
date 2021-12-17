@@ -20,7 +20,7 @@ bl_info = {
     "name": "TelekiNDOF",
     "description": "This addon add mouvement control to object with 3d Connexion Space Mouse, I want a take the opportunity to thanks github user johnhw for the code pyspacenavigator used by this addon",
     "author": "Julien Roy",
-    "version": (1, 1, 0),
+    "version": (1, 1, 1),
     "blender": (2, 93, 0),
     "location": "This addon lives  in it's own propertie panel accessible on the right of the 3d view windows",
     "warning": "",
