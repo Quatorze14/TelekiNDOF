@@ -50,10 +50,10 @@ subprocess.call([py_exec,"-m", "pip", "install", f"--target={py_exec[:-14]}" + "
 path = sys.path
 flag = False
 for item in path:
-    if "telekindof" in item:
+    if "TelekiNDOF-main" in item:
         flag = True
 if flag == False:
-    sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'telekindof'))
+    sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'TelekiNDOF-main'))
 
 #----------------------------------------------
 # Import modules
